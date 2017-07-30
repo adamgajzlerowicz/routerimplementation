@@ -1,31 +1,27 @@
 //@flow
-import React from 'react';
-import {Route} from 'react-router-dom';
 import Space from './component';
 import SingularSpaceComponent from './singleSpaceComponent';
+import type {RouteType} from '../types';
 
-const SpaceRoute = () => {
-    return (
-        <Route
-            exact
-            path={'/space'}
-            key={'/space'}
-            component={Space}
-        />
-    )
+const SpaceRoute: RouteType = {
+    Component: Space,
+    path: '/space',
+    name: '/space',
+    exact: true
 };
 
-const SingularSpaceRoute = () => {
-    return (
-        <Route
-            path={'/space/:id'}
-            key={'/space/:id'}
-            component={SingularSpaceComponent}
-        />
-    )
+const SingularSpaceRoute: RouteType = {
+    Component: SingularSpaceComponent,
+    path: '/space/:id',
+    name: '/space/:id',
+    exact: true,
+    devProps: {
+        id: 'blah'
+    }
 };
 
-const routes = [SpaceRoute(), SingularSpaceRoute()];
+
+const routes = [SpaceRoute, SingularSpaceRoute];
 
 export {
     routes as default

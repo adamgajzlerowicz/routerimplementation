@@ -1,19 +1,14 @@
 //@flow
-import React from 'react';
-import {Route} from 'react-router-dom';
 import About from './component';
+import type {RouteType} from '../types';
 
-const AboutRoute = () => {
-    return (
-        <Route
-            path={'/about'}
-            key={'/about'}
-            component={About}
-        />
-    )
+const AboutRoute: RouteType = {
+    Component: About,
+    path: '/about',
+    name: '/about'
 };
 
-const routes = [AboutRoute()];
+const routes = [AboutRoute];
 
 export {
     routes as default

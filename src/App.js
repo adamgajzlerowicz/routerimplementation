@@ -7,10 +7,11 @@ import createHistory from 'history/createBrowserHistory';
 import Dropdown from './dropdown';
 import Routes from './routes';
 import store from './store';
+import type {RouteType} from './types';
 
 const history = createHistory();
 
-const Apps = () => {
+const Apps = ({...props}) => {
     return (
         <Provider store={store}>
             <ConnectedRouter history={history}>
@@ -19,8 +20,16 @@ const Apps = () => {
                         path="/"
                         component={Dropdown}
                     />
-                    {Routes.map(item => {
-                        return item;
+                    {Routes.map((item): RouteType => {
+                        const props = item.devProps;
+                        const {Component, exact, path, devProps} = item;
+                        return (<Route
+                            exact={exact}
+                            path={path}
+                            key={path}
+                            component={Component}
+                            {...props}
+                        />)
                     })}
                     <hr/>
                 </div>
