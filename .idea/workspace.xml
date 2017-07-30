@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="2b8431a8-1710-463f-b092-21a10ae32248" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+    <list default="true" readonly="true" id="2b8431a8-1710-463f-b092-21a10ae32248" name="Default" comment="Removed phpstorm conf files from project">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/about/component.js" afterPath="$PROJECT_DIR$/src/about/component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dropdown.js" afterPath="$PROJECT_DIR$/src/dropdown.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,12 +30,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="192">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+                <marker date="1501437825000" expanded="true" signature="7:322" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -58,6 +64,7 @@
       <find>react-router-redux</find>
       <find>react-router-</find>
       <find>middleware</find>
+      <find>sync</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src</dir>
@@ -73,11 +80,11 @@
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/space/component.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/dropdown.js" />
         <option value="$PROJECT_DIR$/src/about/index.js" />
-        <option value="$PROJECT_DIR$/src/about/component.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/about/component.js" />
+        <option value="$PROJECT_DIR$/src/dropdown.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
       </list>
     </option>
   </component>
@@ -208,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1501437005678</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Removed phpstorm conf files from project">
+      <created>1501437052207</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1501437052207</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -221,11 +235,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="545" y="0" width="895" height="900" extended-state="0" />
+    <frame x="613" y="0" width="827" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24655172" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2853688" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24924472" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -233,7 +247,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295063" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2893226" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2893226" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -266,7 +280,8 @@
     <MESSAGE value="router with redux working" />
     <MESSAGE value="Before reimplementing redux router" />
     <MESSAGE value="router working correctly" />
-    <option name="LAST_COMMIT_MESSAGE" value="router working correctly" />
+    <MESSAGE value="Removed phpstorm conf files from project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed phpstorm conf files from project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -280,17 +295,8 @@
         <state relative-caret-position="408">
           <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
           <folding>
-            <marker date="1501436980000" expanded="true" signature="7:358" ph="..." />
-            <marker date="1501436980000" expanded="true" signature="7:423" ph="..." />
-            <marker date="1501436980000" expanded="true" signature="447:465" ph="{...}" />
-            <marker date="1501436980000" expanded="true" signature="596:653" ph="{&quot;router&quot;: routerReducer...}" />
-            <marker date="1501436980000" expanded="true" signature="798:1542" ph="{...}" />
-            <marker date="1501436980000" expanded="true" signature="829:1525" ph="&lt;Provider/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="870:1501" ph="&lt;ConnectedRouter/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="926:1466" ph="&lt;div/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="956:1117" ph="&lt;ul/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="1174:1293" ph="&lt;Route/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="1318:1439" ph="&lt;Route/&gt;" />
+            <element signature="e#0#25#0" expanded="true" />
+            <marker date="1501437825000" expanded="true" signature="7:322" ph="..." />
           </folding>
         </state>
       </provider>
@@ -300,17 +306,8 @@
         <state relative-caret-position="408">
           <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
           <folding>
-            <marker date="1501436980000" expanded="true" signature="7:358" ph="..." />
-            <marker date="1501436980000" expanded="true" signature="7:423" ph="..." />
-            <marker date="1501436980000" expanded="true" signature="447:465" ph="{...}" />
-            <marker date="1501436980000" expanded="true" signature="596:653" ph="{&quot;router&quot;: routerReducer...}" />
-            <marker date="1501436980000" expanded="true" signature="798:1542" ph="{...}" />
-            <marker date="1501436980000" expanded="true" signature="829:1525" ph="&lt;Provider/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="870:1501" ph="&lt;ConnectedRouter/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="926:1466" ph="&lt;div/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="956:1117" ph="&lt;ul/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="1174:1293" ph="&lt;Route/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="1318:1439" ph="&lt;Route/&gt;" />
+            <element signature="e#0#25#0" expanded="true" />
+            <marker date="1501437825000" expanded="true" signature="7:322" ph="..." />
           </folding>
         </state>
       </provider>
@@ -320,17 +317,8 @@
         <state relative-caret-position="816">
           <caret line="39" column="26" lean-forward="true" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
           <folding>
-            <marker date="1501436980000" expanded="true" signature="7:358" ph="..." />
-            <marker date="1501436980000" expanded="true" signature="7:423" ph="..." />
-            <marker date="1501436980000" expanded="true" signature="447:465" ph="{...}" />
-            <marker date="1501436980000" expanded="true" signature="596:653" ph="{&quot;router&quot;: routerReducer...}" />
-            <marker date="1501436980000" expanded="true" signature="798:1542" ph="{...}" />
-            <marker date="1501436980000" expanded="true" signature="829:1525" ph="&lt;Provider/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="870:1501" ph="&lt;ConnectedRouter/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="926:1466" ph="&lt;div/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="956:1117" ph="&lt;ul/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="1174:1293" ph="&lt;Route/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="1318:1439" ph="&lt;Route/&gt;" />
+            <element signature="e#0#25#0" expanded="true" />
+            <marker date="1501437825000" expanded="true" signature="7:322" ph="..." />
           </folding>
         </state>
       </provider>
@@ -418,17 +406,8 @@
         <state relative-caret-position="431">
           <caret line="29" column="3" lean-forward="false" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
           <folding>
-            <marker date="1501436980000" expanded="true" signature="7:358" ph="..." />
-            <marker date="1501436980000" expanded="true" signature="7:423" ph="..." />
-            <marker date="1501436980000" expanded="true" signature="447:465" ph="{...}" />
-            <marker date="1501436980000" expanded="true" signature="596:653" ph="{&quot;router&quot;: routerReducer...}" />
-            <marker date="1501436980000" expanded="true" signature="798:1542" ph="{...}" />
-            <marker date="1501436980000" expanded="true" signature="829:1525" ph="&lt;Provider/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="870:1501" ph="&lt;ConnectedRouter/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="926:1466" ph="&lt;div/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="956:1117" ph="&lt;ul/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="1174:1293" ph="&lt;Route/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="1318:1439" ph="&lt;Route/&gt;" />
+            <element signature="e#0#25#0" expanded="true" />
+            <marker date="1501437825000" expanded="true" signature="7:322" ph="..." />
           </folding>
         </state>
       </provider>
@@ -438,17 +417,8 @@
         <state relative-caret-position="816">
           <caret line="39" column="26" lean-forward="true" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
           <folding>
-            <marker date="1501436980000" expanded="true" signature="7:358" ph="..." />
-            <marker date="1501436980000" expanded="true" signature="7:423" ph="..." />
-            <marker date="1501436980000" expanded="true" signature="447:465" ph="{...}" />
-            <marker date="1501436980000" expanded="true" signature="596:653" ph="{&quot;router&quot;: routerReducer...}" />
-            <marker date="1501436980000" expanded="true" signature="798:1542" ph="{...}" />
-            <marker date="1501436980000" expanded="true" signature="829:1525" ph="&lt;Provider/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="870:1501" ph="&lt;ConnectedRouter/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="926:1466" ph="&lt;div/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="956:1117" ph="&lt;ul/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="1174:1293" ph="&lt;Route/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="1318:1439" ph="&lt;Route/&gt;" />
+            <element signature="e#0#25#0" expanded="true" />
+            <marker date="1501437825000" expanded="true" signature="7:322" ph="..." />
           </folding>
         </state>
       </provider>
@@ -550,17 +520,8 @@
         <state relative-caret-position="15">
           <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
-            <marker date="1501436980000" expanded="true" signature="7:358" ph="..." />
-            <marker date="1501436980000" expanded="true" signature="7:423" ph="..." />
-            <marker date="1501436980000" expanded="true" signature="447:465" ph="{...}" />
-            <marker date="1501436980000" expanded="true" signature="596:653" ph="{&quot;router&quot;: routerReducer...}" />
-            <marker date="1501436980000" expanded="true" signature="798:1542" ph="{...}" />
-            <marker date="1501436980000" expanded="true" signature="829:1525" ph="&lt;Provider/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="870:1501" ph="&lt;ConnectedRouter/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="926:1466" ph="&lt;div/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="956:1117" ph="&lt;ul/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="1174:1293" ph="&lt;Route/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="1318:1439" ph="&lt;Route/&gt;" />
+            <element signature="e#0#25#0" expanded="true" />
+            <marker date="1501437825000" expanded="true" signature="7:322" ph="..." />
           </folding>
         </state>
       </provider>
@@ -570,17 +531,8 @@
         <state relative-caret-position="408">
           <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
           <folding>
-            <marker date="1501436980000" expanded="true" signature="7:358" ph="..." />
-            <marker date="1501436980000" expanded="true" signature="7:423" ph="..." />
-            <marker date="1501436980000" expanded="true" signature="447:465" ph="{...}" />
-            <marker date="1501436980000" expanded="true" signature="596:653" ph="{&quot;router&quot;: routerReducer...}" />
-            <marker date="1501436980000" expanded="true" signature="798:1542" ph="{...}" />
-            <marker date="1501436980000" expanded="true" signature="829:1525" ph="&lt;Provider/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="870:1501" ph="&lt;ConnectedRouter/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="926:1466" ph="&lt;div/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="956:1117" ph="&lt;ul/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="1174:1293" ph="&lt;Route/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="1318:1439" ph="&lt;Route/&gt;" />
+            <element signature="e#0#25#0" expanded="true" />
+            <marker date="1501437825000" expanded="true" signature="7:322" ph="..." />
           </folding>
         </state>
       </provider>
@@ -590,17 +542,8 @@
         <state relative-caret-position="408">
           <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
           <folding>
-            <marker date="1501436980000" expanded="true" signature="7:358" ph="..." />
-            <marker date="1501436980000" expanded="true" signature="7:423" ph="..." />
-            <marker date="1501436980000" expanded="true" signature="447:465" ph="{...}" />
-            <marker date="1501436980000" expanded="true" signature="596:653" ph="{&quot;router&quot;: routerReducer...}" />
-            <marker date="1501436980000" expanded="true" signature="798:1542" ph="{...}" />
-            <marker date="1501436980000" expanded="true" signature="829:1525" ph="&lt;Provider/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="870:1501" ph="&lt;ConnectedRouter/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="926:1466" ph="&lt;div/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="956:1117" ph="&lt;ul/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="1174:1293" ph="&lt;Route/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="1318:1439" ph="&lt;Route/&gt;" />
+            <element signature="e#0#25#0" expanded="true" />
+            <marker date="1501437825000" expanded="true" signature="7:322" ph="..." />
           </folding>
         </state>
       </provider>
@@ -610,17 +553,8 @@
         <state relative-caret-position="816">
           <caret line="39" column="26" lean-forward="true" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
           <folding>
-            <marker date="1501436980000" expanded="true" signature="7:358" ph="..." />
-            <marker date="1501436980000" expanded="true" signature="7:423" ph="..." />
-            <marker date="1501436980000" expanded="true" signature="447:465" ph="{...}" />
-            <marker date="1501436980000" expanded="true" signature="596:653" ph="{&quot;router&quot;: routerReducer...}" />
-            <marker date="1501436980000" expanded="true" signature="798:1542" ph="{...}" />
-            <marker date="1501436980000" expanded="true" signature="829:1525" ph="&lt;Provider/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="870:1501" ph="&lt;ConnectedRouter/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="926:1466" ph="&lt;div/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="956:1117" ph="&lt;ul/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="1174:1293" ph="&lt;Route/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="1318:1439" ph="&lt;Route/&gt;" />
+            <element signature="e#0#25#0" expanded="true" />
+            <marker date="1501437825000" expanded="true" signature="7:322" ph="..." />
           </folding>
         </state>
       </provider>
@@ -702,17 +636,8 @@
         <state relative-caret-position="431">
           <caret line="29" column="3" lean-forward="false" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
           <folding>
-            <marker date="1501436980000" expanded="true" signature="7:358" ph="..." />
-            <marker date="1501436980000" expanded="true" signature="7:423" ph="..." />
-            <marker date="1501436980000" expanded="true" signature="447:465" ph="{...}" />
-            <marker date="1501436980000" expanded="true" signature="596:653" ph="{&quot;router&quot;: routerReducer...}" />
-            <marker date="1501436980000" expanded="true" signature="798:1542" ph="{...}" />
-            <marker date="1501436980000" expanded="true" signature="829:1525" ph="&lt;Provider/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="870:1501" ph="&lt;ConnectedRouter/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="926:1466" ph="&lt;div/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="956:1117" ph="&lt;ul/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="1174:1293" ph="&lt;Route/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="1318:1439" ph="&lt;Route/&gt;" />
+            <element signature="e#0#25#0" expanded="true" />
+            <marker date="1501437825000" expanded="true" signature="7:322" ph="..." />
           </folding>
         </state>
       </provider>
@@ -722,17 +647,8 @@
         <state relative-caret-position="816">
           <caret line="39" column="26" lean-forward="true" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
           <folding>
-            <marker date="1501436980000" expanded="true" signature="7:358" ph="..." />
-            <marker date="1501436980000" expanded="true" signature="7:423" ph="..." />
-            <marker date="1501436980000" expanded="true" signature="447:465" ph="{...}" />
-            <marker date="1501436980000" expanded="true" signature="596:653" ph="{&quot;router&quot;: routerReducer...}" />
-            <marker date="1501436980000" expanded="true" signature="798:1542" ph="{...}" />
-            <marker date="1501436980000" expanded="true" signature="829:1525" ph="&lt;Provider/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="870:1501" ph="&lt;ConnectedRouter/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="926:1466" ph="&lt;div/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="956:1117" ph="&lt;ul/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="1174:1293" ph="&lt;Route/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="1318:1439" ph="&lt;Route/&gt;" />
+            <element signature="e#0#25#0" expanded="true" />
+            <marker date="1501437825000" expanded="true" signature="7:322" ph="..." />
           </folding>
         </state>
       </provider>
@@ -796,14 +712,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dropdown.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="2" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/about/routes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -820,45 +728,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/about/component.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="60" lean-forward="true" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
+        <state relative-caret-position="48">
+          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
           <folding>
-            <marker date="1501428874000" expanded="true" signature="7:106" ph="..." />
-            <marker date="1501428874000" expanded="true" signature="139:242" ph="{...}" />
-            <marker date="1501428874000" expanded="true" signature="186:233" ph="&lt;div/&gt;" />
-            <marker date="1501428874000" expanded="true" signature="272:308" ph="{...}" />
-            <marker date="1501428874000" expanded="true" signature="285:306" ph="{&quot;state&quot;: state...}" />
+            <marker date="1501437175000" expanded="true" signature="48:127" ph="{...}" />
+            <marker date="1501437175000" expanded="true" signature="71:118" ph="&lt;div/&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dropdown.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding>
+            <marker date="1501437810000" expanded="true" signature="7:65" ph="..." />
+            <marker date="1501437810000" expanded="true" signature="121:713" ph="{...}" />
+            <marker date="1501437810000" expanded="true" signature="144:173" ph="[...]" />
+            <marker date="1501437810000" expanded="true" signature="218:295" ph="{...}" />
+            <marker date="1501437810000" expanded="true" signature="320:704" ph="&lt;div/&gt;" />
+            <marker date="1501437810000" expanded="true" signature="338:463" ph="&lt;ul/&gt;" />
+            <marker date="1501437810000" expanded="true" signature="476:689" ph="&lt;select/&gt;" />
+            <marker date="1501437810000" expanded="true" signature="517:586" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="192">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
-            <marker date="1501436980000" expanded="true" signature="7:358" ph="..." />
-            <marker date="1501436980000" expanded="true" signature="7:423" ph="..." />
-            <marker date="1501436980000" expanded="true" signature="447:465" ph="{...}" />
-            <marker date="1501436980000" expanded="true" signature="596:653" ph="{&quot;router&quot;: routerReducer...}" />
-            <marker date="1501436980000" expanded="true" signature="798:1542" ph="{...}" />
-            <marker date="1501436980000" expanded="true" signature="829:1525" ph="&lt;Provider/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="870:1501" ph="&lt;ConnectedRouter/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="926:1466" ph="&lt;div/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="956:1117" ph="&lt;ul/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="1174:1293" ph="&lt;Route/&gt;" />
-            <marker date="1501436980000" expanded="true" signature="1318:1439" ph="&lt;Route/&gt;" />
+            <element signature="e#0#25#0" expanded="true" />
+            <marker date="1501437825000" expanded="true" signature="7:322" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>

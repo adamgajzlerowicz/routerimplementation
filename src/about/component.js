@@ -1,10 +1,6 @@
 import React from 'react';
-import { connect } from 'react-redux';
-import {withRouter} from 'react-router';
 
-
-const About = ({...props}) => {
-    console.log(props);
+const About = () => {
     return (
         <div>
             <h2>About</h2>
@@ -12,14 +8,6 @@ const About = ({...props}) => {
     );
 };
 
-const mapState = (state) =>{
-    return {
-        state
-    }
-};
-
-const ConnectedAbout = withRouter(connect(mapState)(About));
-
 export {
-    ConnectedAbout as default
+    About as default
 };

@@ -1,20 +1,34 @@
 import React from 'react';
-import PropTypes from 'prop-types'
+import {Link} from 'react-router-dom';
 
-const Dropdown = ({history}, context) => {
+const Dropdown = ({history, location: {pathname}}) => {
+
+    const choices = [
+        '/', '/about'
+    ];
+
+    const options = choices.map(choice => {
+        return <option value={choice} key={choice}>{choice}</option>;
+    });
+
     return (
-        <select onChange={(e) => {
-            history.push(e.target.value);
-        }}>
-            <option value="/">/</option>
-            <option value="about">foo/</option>
-        </select>
+        <div>
+            <ul>
+                <li><Link to="/">/</Link></li>
+                <li><Link to="/about">About</Link></li>
+            </ul>
+            <select
+                onChange={(e) => {
+                    history.push(e.target.value);
+                }}
+                defaultValue={pathname}
+            >
+                {options}
+            </select>
+        </div>
+
     )
 };
-
-Dropdown.contextTypes = {
-    router: PropTypes.any
-}
 
 export {
     Dropdown as default
