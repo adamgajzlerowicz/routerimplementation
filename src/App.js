@@ -1,9 +1,9 @@
 import React from 'react'
-import {createStore, combineReducers, applyMiddleware} from 'redux'
+import {createStore, combineReducers, applyMiddleware, compose} from 'redux'
 import {Provider} from 'react-redux';
-import {routerReducer, syncHistoryWithStore, routerMiddleware} from 'react-router-redux';
+import {ConnectedRouter, routerReducer, syncHistoryWithStore, routerMiddleware} from 'react-router-redux';
 import {Link, Router, Route} from 'react-router-dom';
-import createBrowserHistory from 'history/createBrowserHistory';
+import createHistory from 'history/createBrowserHistory';
 import Dropdown from './dropdown';
 import About from './about';
 
@@ -11,25 +11,22 @@ const reducer = () => {
     return {};
 };
 
-const customHistory = createBrowserHistory();
+const history = createHistory();
 
-const middleware = routerMiddleware(customHistory);
+const middleware = routerMiddleware(history);
 
 const store = createStore(
     combineReducers({
         ...reducer,
-        routing: routerReducer
+        router: routerReducer
     }),
-    middleware,
-    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+    compose(applyMiddleware(middleware), window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())
 );
-
-const history = syncHistoryWithStore(customHistory, store);
 
 const Apps = () => {
         return (
             <Provider store={store}>
-                <Router history={history}>
+                <ConnectedRouter history={history}>
                     <div>
                         <ul>
                             <li><Link to="/">/</Link></li>
@@ -47,7 +44,7 @@ const Apps = () => {
                             component={About}
                         />
                     </div>
-                </Router>
+                </ConnectedRouter>
             </Provider>
         );
     }
