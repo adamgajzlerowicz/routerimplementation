@@ -5,7 +5,7 @@ import {ConnectedRouter, routerReducer, routerMiddleware} from 'react-router-red
 import {Route} from 'react-router-dom';
 import createHistory from 'history/createBrowserHistory';
 import Dropdown from './dropdown';
-import About from './about';
+import Routes from './routes';
 
 const reducer = () => {
     return {};
@@ -32,12 +32,10 @@ const Apps = () => {
                             path="/"
                             component={Dropdown}
                         />
+                        {Routes.map(route => {
+                            return route();
+                        })}
                         <hr/>
-
-                        <Route
-                            path="/about"
-                            component={About}
-                        />
                     </div>
                 </ConnectedRouter>
             </Provider>
