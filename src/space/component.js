@@ -1,13 +1,13 @@
 import React from 'react';
 
-const Component = ()=>{
+const Space = () => {
     return (
         <div>
-            I am a component
+            <h2>Space</h2>
         </div>
-    )
+    );
 };
 
 export {
-    Component as default
+    Space as default
 };

@@ -4,7 +4,7 @@ import routes from './routes';
 
 const Dropdown = ({history, location: {pathname}}) => {
 
-    const choices = routes.map(item=>{
+    const choices = routes.map(item => {
         return item.key;
     });
 
@@ -14,11 +14,14 @@ const Dropdown = ({history, location: {pathname}}) => {
         return <option value={choice} key={choice}>{choice}</option>;
     });
 
+    const linkOptions = choices.map(choice => {
+        return <li key={choice}><Link to={choice}>{choice}</Link></li>;
+    });
+
     return (
         <div>
             <ul>
-                <li><Link to="/">/</Link></li>
-                <li><Link to="/about">About</Link></li>
+                {linkOptions}
             </ul>
             <select
                 onChange={(e) => {
