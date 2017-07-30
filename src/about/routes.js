@@ -1,14 +1,19 @@
 //@flow
+import React from 'react';
+import {Route} from 'react-router-dom';
 import About from './component';
-import {fromJS} from 'immutable';
-import type {RouteType} from '../types';
 
-const AppRoute: RouteType = {
-    Component: About,
-    path: '/about',
-    name: 'about'
+const AboutRoute = () => {
+    return (
+        <Route
+            path={'/about'}
+            key={'/about'}
+            component={About}
+        />
+    )
 };
-const routes = fromJS([AppRoute]);
+
+const routes = [AboutRoute()];
 
 export {
     routes as default

@@ -1,11 +1,14 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import routes from './routes';
 
 const Dropdown = ({history, location: {pathname}}) => {
 
-    const choices = [
-        '/', '/about'
-    ];
+    const choices = routes.map(item=>{
+        return item.key;
+    });
+
+    choices.unshift('/');
 
     const options = choices.map(choice => {
         return <option value={choice} key={choice}>{choice}</option>;

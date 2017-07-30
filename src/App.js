@@ -7,7 +7,6 @@ import createHistory from 'history/createBrowserHistory';
 import Dropdown from './dropdown';
 import Routes from './routes';
 import store from './store';
-import type {RouteType} from './types';
 
 const history = createHistory();
 
@@ -20,12 +19,8 @@ const Apps = () => {
                         path="/"
                         component={Dropdown}
                     />
-                    {Routes.map((item): RouteType => {
-                        return (<Route
-                            path={item.get('path')}
-                            key={item.get('path')}
-                            component={item.get('Component')}
-                        />);
+                    {Routes.map(item => {
+                        return item;
                     })}
                     <hr/>
                 </div>
