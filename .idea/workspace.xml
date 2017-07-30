@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="2b8431a8-1710-463f-b092-21a10ae32248" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/space/singleSpaceComponent.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.flowconfig" afterPath="$PROJECT_DIR$/.flowconfig" />
+    <list default="true" readonly="true" id="2b8431a8-1710-463f-b092-21a10ae32248" name="Default" comment="a">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/space/routes.js" afterPath="$PROJECT_DIR$/src/space/routes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,14 +28,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="routes.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/space/routes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding>
-                <element signature="e#8#34#0" expanded="true" />
-              </folding>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="66" lean-forward="false" selection-start-line="0" selection-start-column="66" selection-end-line="0" selection-end-column="66" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -91,10 +90,11 @@
         <option value="$PROJECT_DIR$/src/space/component.js" />
         <option value="$PROJECT_DIR$/src/space/index.js" />
         <option value="$PROJECT_DIR$/src/routes.js" />
-        <option value="$PROJECT_DIR$/src/dropdown.js" />
         <option value="$PROJECT_DIR$/.flowconfig" />
         <option value="$PROJECT_DIR$/src/space/singleSpaceComponent.js" />
+        <option value="$PROJECT_DIR$/src/dropdown.js" />
         <option value="$PROJECT_DIR$/src/space/routes.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -298,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1501441213431</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Wrapper working">
+      <created>1501441550095</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1501441550095</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView">
@@ -311,7 +318,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="734" y="0" width="706" height="900" extended-state="0" />
+    <frame x="1035" y="0" width="405" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -365,7 +372,8 @@
     <MESSAGE value="removed flow - all working good" />
     <MESSAGE value="Added space root" />
     <MESSAGE value="Cleanup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleanup" />
+    <MESSAGE value="Wrapper working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Wrapper working" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -891,24 +899,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dropdown.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding>
-            <marker date="1501441177000" expanded="true" signature="7:96" ph="..." />
-            <marker date="1501441177000" expanded="true" signature="152:850" ph="{...}" />
-            <marker date="1501441177000" expanded="true" signature="194:226" ph="{...}" />
-            <marker date="1501441177000" expanded="true" signature="299:376" ph="{...}" />
-            <marker date="1501441177000" expanded="true" signature="426:505" ph="{...}" />
-            <marker date="1501441177000" expanded="true" signature="530:841" ph="&lt;div/&gt;" />
-            <marker date="1501441177000" expanded="true" signature="548:600" ph="&lt;ul/&gt;" />
-            <marker date="1501441177000" expanded="true" signature="613:826" ph="&lt;select/&gt;" />
-            <marker date="1501441177000" expanded="true" signature="654:723" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/space/component.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -931,13 +921,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/dropdown.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <marker date="1501441922000" expanded="true" signature="7:96" ph="..." />
+            <marker date="1501441922000" expanded="true" signature="152:850" ph="{...}" />
+            <marker date="1501441922000" expanded="true" signature="194:226" ph="{...}" />
+            <marker date="1501441922000" expanded="true" signature="299:376" ph="{...}" />
+            <marker date="1501441922000" expanded="true" signature="426:505" ph="{...}" />
+            <marker date="1501441922000" expanded="true" signature="530:841" ph="&lt;div/&gt;" />
+            <marker date="1501441922000" expanded="true" signature="548:600" ph="&lt;ul/&gt;" />
+            <marker date="1501441922000" expanded="true" signature="613:826" ph="&lt;select/&gt;" />
+            <marker date="1501441922000" expanded="true" signature="654:723" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/space/routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="474">
+          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
           <folding>
-            <element signature="e#8#34#0" expanded="true" />
+            <marker date="1501441933000" expanded="true" signature="15:168" ph="..." />
+            <marker date="1501441933000" expanded="true" signature="195:346" ph="{...}" />
+            <marker date="1501441933000" expanded="true" signature="218:338" ph="&lt;Route/&gt;" />
+            <marker date="1501441933000" expanded="true" signature="382:540" ph="{...}" />
+            <marker date="1501441933000" expanded="true" signature="405:532" ph="&lt;Route/&gt;" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="66" lean-forward="false" selection-start-line="0" selection-start-column="66" selection-end-line="0" selection-end-column="66" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
