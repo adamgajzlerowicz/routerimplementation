@@ -21,14 +21,15 @@ const Apps = ({...props}) => {
                         component={Dropdown}
                     />
                     {Routes.map((item): RouteType => {
-                        const props = item.devProps;
+                        const componentProps = 'dev' ? item.devProps : props;
                         const {Component, exact, path, devProps} = item;
                         return (<Route
                             exact={exact}
                             path={path}
                             key={path}
-                            component={Component}
-                            {...props}
+                            render={({...routerProps})=>{
+                                return <Component {...routerProps} {...componentProps}/>
+                            }}
                         />)
                     })}
                     <hr/>

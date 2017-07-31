@@ -7,17 +7,17 @@ const SpaceRoute: RouteType = {
     Component: Space,
     path: '/space',
     name: '/space',
-    exact: true
+    exact: true,
+    devProps: {
+        name: 'blah'
+    }
 };
 
 const SingularSpaceRoute: RouteType = {
     Component: SingularSpaceComponent,
     path: '/space/:id',
     name: '/space/:id',
-    exact: true,
-    devProps: {
-        id: 'blah'
-    }
+    exact: true
 };
 
 
