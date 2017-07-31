@@ -21,8 +21,8 @@ const Apps = ({...props}) => {
                         component={Dropdown}
                     />
                     {Routes.map((item): RouteType => {
-                        const componentProps = 'dev' ? item.devProps : props;
                         const {Component, exact, path, devProps} = item;
+                        const componentProps = 'dev' ? devProps : props;
                         return (<Route
                             exact={exact}
                             path={path}
